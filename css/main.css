@@ -1,45 +1,52 @@
 body{
-  box-sizing: border-box;
-  margin: 0;
-  padding:0;
+  box-sizing: border-box;/*modificar las propiedades por defecto del elemento bloque body*/
+  margin: 0;/*eliminamos margen*/
+  padding:0;/*eliminamos padding*/
 }
 
 
-h1{
-  font-size:25px ;
-  font-family:'Roboto Slab', serif ;
-  color:#64615F;
-  padding: 20px;
+h1{/*agregamos estilos anuestra etiqueta h1*/
+  font-size:25px ;/*tamaño de letra*/
+  font-family:'Roboto Slab', serif ;/*tipo de familia del texto*/
+  color:#64615F;/*tonalidad de color purpura oscuro*/
+  padding-top: 10px;
   padding-left: 7%;
+}
+.box{/*selector clase*/
+  width: 90px;
+  height: 8px;
+  margin-left:7%;
+  margin-bottom: 20px;
+  background: #64615F;
 }
 
 main{
   margin-left:5%;
-  overflow-x: scroll;
   width:73%;
 
 }
 
 div{
-  display: inline-block;
+  display: inline-block;/*le indicamos que se comporte como un elemento de linea sin dejar de ser elemento de bloque*/
 
 }
 
 img{
-  position: relative;
-  width:200px;
-  height:250px;
-  padding:20px ;
+  width:200px;/*ancho de la imagen*/
+  height:250px;/*altura de la imagen*/
+  padding-left: 20px ;/*damos una misma cantida de pixeles al padding en ambos lados para poder centrar las imagenes y crear una separacion analoga entre ellas*/
+  padding-right: 20PX;
+  padding-bottom: 0;/*eliminamos el padding inferior*/
 
 }
 
 p{
-  position: relative;
-  bottom:60px;
-  left: 130px;
-  font-size: 11px;
-  font-family:'Roboto Slab', serif ;
-  text-shadow: 1px 1px 2px #000;
-  color: #fff;
+  position: relative;/*posicion relativa para poder cambiar de posicion fnal al elemento*/
+  bottom:60px;/*espacio dejado en la parte inferior*/
+  left: 110px;/*espacio dejado a la izquierda*/
+  font-size: 13px;/*tamaño de letra*/
+  font-family:'Roboto Slab', serif ;/*tipo de familia del texto*/
+  text-shadow: 1px 1px 2px #000;/*crear efecto dimensional en el texto*/
+  color: #fff;/*color blanco*/
 
 }
